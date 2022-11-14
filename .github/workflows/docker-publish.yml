@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.DOCKER_LOGIN }}
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Deploy
-        run: ./deploy
+        run: ./deploy.sh

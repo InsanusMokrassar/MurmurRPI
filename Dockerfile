@@ -1,4 +1,4 @@
-FROM easypi/alpine-arm
+FROM alpine:3.14
 MAINTAINER Ovsiannikov Aleksei
 
 WORKDIR /etc/murmur
